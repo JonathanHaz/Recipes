@@ -1,0 +1,104 @@
+.blueShape {
+  height: 40.6rem;
+  width: 40.6rem;
+}
+
+.homePageContainer {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.blueShapeDiv {
+  position: absolute;
+  z-index: 0;
+  right: 0;
+}
+
+.plateOfFoodDiv {
+  position: relative;
+  z-index: 2;
+}
+
+.plateOfFood {
+  height: 30rem;
+}
+
+.titleOfHome {
+  font-family: "ITC Benguiat Std", sans-serif;
+  font-size: 6rem;
+  margin-top: 6rem;
+  color: #b67352;
+}
+
+.containerForPlate {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.textUnderTitleHome {
+  width: 40rem;
+  font-size: 1.2rem;
+}
+
+.vegtables {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 8rem;
+  height: 30rem;
+}
+
+.buttonExplore {
+  font-family: "ITC Benguiat Std", sans-serif;
+  color: #1a1a1a;
+  width: 10rem;
+  height: 3.7rem;
+  background-color: #ecb159;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+}
+
+.homePageSecondPart {
+  margin-top: 15rem;
+}
+
+.recipesIdeasTitle {
+  font-family: "ITC Benguiat Std", sans-serif;
+  font-size: 4rem;
+  color: #b67352;
+  text-decoration: underline #ecb159;
+  text-underline-offset: 2rem;
+}
+
+.recipeTitleDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.recipesIdeasCardDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 132rem;
+  margin-bottom: 4rem;
+}
+
+.recipeIdeasCardContainer {
+  flex-basis: calc(19% - 4rem);
+  margin-bottom: 2rem;
+}
+
+.imageForAbout {
+  margin-top: 4rem;
+  height: 26.38rem;
+  margin-bottom: 2rem;
+}
+
+.secondImageForAbout {
+  height: 36.9rem;
+  margin-bottom: 4rem;
+}

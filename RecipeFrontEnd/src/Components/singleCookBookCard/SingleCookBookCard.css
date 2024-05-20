@@ -1,0 +1,29 @@
+.cookbookContainer {
+    display: flex;
+    margin-block: 10px;
+  }
+  
+  .cookbookIMG {
+    height: 500px;
+    margin-right: 20px; 
+  }
+  
+  .recipesContainer {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .recipesContainer img {
+    width: 300;
+    height: 200px;
+    object-fit: cover;
+  }
+
+.btns{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+  

@@ -1,0 +1,114 @@
+.recipe-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 6rem;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.283);
+  border-radius: 8px;
+}
+
+.recipe-img-container {
+  position: relative;
+  margin-top: -50px;
+}
+
+.recipe-img-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.728); 
+  border-radius: 8px; /
+}
+
+.recipe-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px; 
+}
+
+.recipe-info {
+  padding: 10px;
+}
+
+.recipe-name {
+  font-family: "ITC Benguiat Std", sans-serif;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.recipe-categories {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.category-label {
+  background-color: #8cb9bd;
+  color: #fff;
+  border-radius: 12px;
+  padding: 3px 8px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.meat {
+  background-color: #f83b3b;
+}
+.pasta {
+  background-color: #85f585;
+}
+.pizza {
+  background-color: #fef159;
+}
+.indian {
+  background-color: #ffa600;
+}
+.chicken {
+  background-color: #7e560b;
+}
+.steak {
+  background-color: #800000;
+}
+.italian {
+  background-color: #73f821;
+}
+.other {
+  background-color: #8cb9bd;
+}
+
+.recipe-cook-time,
+.recipe-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.vertical-line {
+  height: 20px;
+  width: 1px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
+
+.recipe-cook-time span,
+.recipe-author span {
+  margin-left: 5px;
+}
+
+.recipe-author {
+  justify-content: flex-end;
+}
+
+.recipesDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 6rem 5rem;
+}

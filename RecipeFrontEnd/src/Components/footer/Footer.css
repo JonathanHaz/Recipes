@@ -1,0 +1,77 @@
+.footer {
+  background-color: #f0f0f0;
+  padding: 2rem 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  width: 30%;
+}
+
+.footer-right {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-column,
+.follow-us-column {
+  width: 48%;
+}
+
+.footer-line {
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.footer-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.company-logo {
+  width: 15rem;
+  margin-left: -5rem;
+}
+
+.fa-facebook {
+  color: #395498;
+}
+
+.fa-instagram {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-linkedin {
+  color: #0c61bf;
+}
+
+h3 {
+  font-family: "ITC Benguiat Std", sans-serif;
+  color: #8cb9bd;
+}

@@ -1,0 +1,8 @@
+#instructionsWrapper {
+display: flex;
+justify-content: space-between;
+padding: 0 12%;
+margin-top: 2rem;
+}
+
+#instructions {}

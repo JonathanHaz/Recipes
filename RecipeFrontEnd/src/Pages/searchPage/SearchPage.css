@@ -1,0 +1,21 @@
+#searchPageWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+
+}
+
+#searchField {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 5%;
+
+}
+
+
+
+#searchBtn {
+    margin-right: auto;
+}
